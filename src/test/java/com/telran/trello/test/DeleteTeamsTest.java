@@ -1,4 +1,4 @@
-package com.ilyakoshkin.trello;
+package com.telran.trello.test;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -8,21 +8,21 @@ public class DeleteTeamsTest extends  TestBase{
 
     @BeforeMethod
     public void ensurePreconditionsTestDeleteTeams() throws InterruptedException {
-        if (!isAvatarPresentOnHeader()) {
-            fillLoginForm();
+        if (!app.getSession().isAvatarPresentOnHeader()) {
+            app.getSession().fillLoginForm();
         }
     }
 
     @Test
     public void testDeleteTeams () throws InterruptedException {
-        int before = getTeamsCount();
+        int before = app.getTeam().getTeamsCount();
 
-        clickChoiceTeam();
-        clickSettings();
-        clickDeleteThisTeam();
-        clickConfirmDeleteTeam();
+        app.getTeam().clickChoiceTeam();
+        app.getTeam().clickSettings();
+        app.getTeam().clickDeleteThisTeam();
+        app.getTeam().clickConfirmDeleteTeam();
 
-        int after = getTeamsCount();
+        int after = app.getTeam().getTeamsCount();
         Assert.assertEquals(after, before -1 );
         System.out.println("Count Teams after delete is: " + after );
     }

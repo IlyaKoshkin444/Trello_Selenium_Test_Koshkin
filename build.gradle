@@ -33,15 +33,15 @@ task testRegression(type:Test) {
         systemProperty 'browser', "${browser}"
     }
 }
-    task testTeams(type: Test) {
-        useTestNG {
-            suites 'src/test/resources/testng-teams.xml'
-        }
-        if (project.hasProperty('browser')) {
-            systemProperty 'browser', "${browser}"
-        }
+task testTeams(type: Test) {
+    useTestNG {
+        suites 'src/test/resources/testng-teams.xml'
     }
-        test {
-            useTestNG()
-        }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+}
+test {
+    useTestNG()
+}
 

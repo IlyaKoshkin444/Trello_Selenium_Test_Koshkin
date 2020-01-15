@@ -1,4 +1,4 @@
-package com.ilyakoshkin.trello;
+package com.telran.trello.test;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -9,17 +9,17 @@ public class LoginTestHW extends TestBase{
     @BeforeMethod
 
     public void ensurePreconditions() throws InterruptedException {
-        if(isAvatarPresentOnHeader()){
-            logout();
+        if(app.getSession().isAvatarPresentOnHeader()){
+            app.getSession().logout();
         }
     }
 
     @Test
     public void testLoginHW() throws InterruptedException {
 
-        fillLoginForm();
+        app.getSession().fillLoginForm();
         Assert.assertTrue
-                (isAvatarPresentOnHeader());
+                (app.getSession().isAvatarPresentOnHeader());
 
     }
 
@@ -27,9 +27,9 @@ public class LoginTestHW extends TestBase{
     public void testLoginHW1() throws InterruptedException {
 
 
-        fillLoginForm();
+        app.getSession().fillLoginForm();
         Assert.assertTrue
-                (isAvatarPresentOnHeader());
+                (app.getSession().isAvatarPresentOnHeader());
 
     }
 

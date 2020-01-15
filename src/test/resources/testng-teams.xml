@@ -3,9 +3,9 @@
 <suite name="Trello_Teams" verbose="1" >
     <test name="SmokeTest" >
         <classes>
-            <class name="com.ilyakoshkin.trello.CreateTeamsTest" />
-           <class name="com.ilyakoshkin.trello.ModificateTeamsTest" />
-            <class name="com.ilyakoshkin.trello.DeleteTeamsTest" />
+            <class name="com.telran.trello.test.CreateTeamsTest" />
+           <class name="com.telran.trello.test.ModificateTeamsTest" />
+            <class name="com.telran.trello.test.DeleteTeamsTest" />
         </classes>
     </test>
 
