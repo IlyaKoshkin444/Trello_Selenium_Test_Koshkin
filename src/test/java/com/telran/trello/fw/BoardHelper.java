@@ -1,5 +1,6 @@
 package com.telran.trello.fw;
 
+import com.telran.trello.model.BoardData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -35,8 +36,8 @@ public class BoardHelper extends HelperBase {
         pause(5000);
     }
 
-    public void inputCreateBoardTitle() {
-        Type(By.cssSelector("[data-test-id='create-board-title-input']"), "MyTestBoard");
+    public void inputCreateBoardTitle(BoardData boardData) {
+        Type(By.cssSelector("[data-test-id='create-board-title-input']"), boardData.getBoardName());
     }
 
     public void clickCreateBoardButton() throws InterruptedException {

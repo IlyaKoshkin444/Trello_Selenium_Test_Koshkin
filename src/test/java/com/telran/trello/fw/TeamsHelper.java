@@ -1,5 +1,6 @@
 package com.telran.trello.fw;
 
+import com.telran.trello.model.TeamData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -71,9 +72,9 @@ public class TeamsHelper extends HelperBase{
         pause(5000);
     }
 
-    public void editNameAndDescriptionTeam() {
-        Type(By.xpath("//input[@name='displayName']"), "QA-22 TEAM PROFESSIONAL");
-        Type(By.xpath("//textarea[@name='desc']"), "Example for QA-22 TEAM PROFESSIONAL");
+    public void editNameAndDescriptionTeam(TeamData teamData) {
+        Type(By.xpath("//input[@name='displayName']"), teamData.getName());//"QA-22 TEAM PROFESSIONAL"
+        Type(By.xpath("//textarea[@name='desc']"), teamData.getDescription());//"Example for QA-22 TEAM PROFESSIONAL"
     }
 
     public void clickEditTeamProfile() throws InterruptedException {
