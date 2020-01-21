@@ -31,8 +31,9 @@ public class CreateBoardTest extends TestBase {
         BufferedReader reader= new BufferedReader(new FileReader(new File("src/test/resources/boardsPositiveCSV.csv")));
         String line = reader.readLine();
         while (line!=null){
-            String[]split = line.split(" ");
+            String[]split = line.split(",");
             list.add(new Object[]{new BoardData().setBoardName(split[0])});
+            line = reader.readLine();
         }
         return list.iterator();
     }

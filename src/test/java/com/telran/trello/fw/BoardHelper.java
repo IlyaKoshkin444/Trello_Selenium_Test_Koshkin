@@ -60,7 +60,7 @@ public class BoardHelper extends HelperBase {
     }
 
     public void clickPermanentlyDeleteBoard() throws InterruptedException {
-        click(By.xpath("//a[@class='quiet js-delete']"));
+        click(By.cssSelector("[class='quiet js-delete']"));
         pause(5000);
     }
 

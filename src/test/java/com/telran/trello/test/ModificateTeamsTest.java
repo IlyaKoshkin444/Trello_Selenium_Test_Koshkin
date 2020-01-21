@@ -29,6 +29,7 @@ public Iterator<Object[]> validTeams() {
         while (line!=null){
             String[]split = line.split(",");
             list.add(new Object[]{new TeamData().setName(split[0]).setDescription(split[1])});
+            line = reader.readLine();
         }
         return list.iterator();
     }
