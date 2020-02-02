@@ -1,0 +1,20 @@
+2020-02-02 03:15:01,318 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:20] Start test testLoginHW with parameters[]
+2020-02-02 03:15:12,371 ERROR [Test worker] c.t.t.u.Listener [Listener.java:22] testLoginHW Failed 
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-MacBook', ip: 'fe80:0:0:0:1cf5:bbec:3421:d285%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/hh/vp75mrlx5pn...}, goog:chromeOptions: {debuggerAddress: localhost:49517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fea2a866912785201b8db03d1ca2e0b7
+*** Element info: {Using=css selector, value=[href='/login']}
+2020-02-02 03:15:12,395 ERROR [Test worker] c.t.t.u.Listener [Listener.java:22] testLoginHW Failed 
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-MacBook', ip: 'fe80:0:0:0:1cf5:bbec:3421:d285%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/hh/vp75mrlx5pn...}, goog:chromeOptions: {debuggerAddress: localhost:49517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fea2a866912785201b8db03d1ca2e0b7

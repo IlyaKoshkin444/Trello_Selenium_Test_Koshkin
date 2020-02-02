@@ -6,6 +6,10 @@
             <class name="com.telran.trello.test.LoginTestHW" />
             <class name="com.telran.trello.test.CreateBoardTest" />
             <class name="com.telran.trello.test.DeleteBoardTest" />
+            <class name="com.telran.trello.test.CreateTeamsTest" />
+            <class name="com.telran.trello.test.ModificateTeamsTest" />
+            <class name="com.telran.trello.test.DeleteTeamsTest" />
+            <class name="com.telran.trello.test.ChangeUserAvatarTest" />
         </classes>
     </test>
 

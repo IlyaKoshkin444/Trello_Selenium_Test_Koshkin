@@ -1,0 +1,10 @@
+2020-01-22 20:36:39,824 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:20] Start test testLoginHW
+2020-01-22 20:36:39,828 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:25] Stop test testLoginHW
+2020-01-22 20:37:32,305 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:20] Start test testLoginHW1
+2020-01-22 20:37:32,306 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:25] Stop test testLoginHW1
+2020-01-23 10:19:21,001 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:21] Start test testLoginHWwith parameters[]
+2020-01-23 10:19:21,006 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test testLoginHW
+2020-01-23 10:20:12,700 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:21] Start test testLoginHW1with parameters[]
+2020-01-23 10:20:12,702 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test testLoginHW1
+2020-01-23 10:21:59,807 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:21] Start test testDeleteBoardwith parameters[]
+2020-01-23 10:21:59,815 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test testDeleteBoard

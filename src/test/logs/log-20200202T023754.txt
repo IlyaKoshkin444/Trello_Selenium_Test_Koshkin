@@ -1,0 +1,17 @@
+2020-02-02 02:38:00,732 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:20] Start test testChangeUserAvatar with parameters[]
+2020-02-02 02:38:52,924 INFO [Test worker] c.t.t.t.TestBase [ChangeUserAvatarTest.java:19] avatar before
+2020-02-02 02:38:53,585 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:56] 
+
+Created screenshot:/Users/macbookpro/Documents/GitHub/Trello_Selenium_Test_Koshkin_App/src/test/screenshots/screen-1580603933579.png
+2020-02-02 02:39:04,614 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:56] 
+
+Created screenshot:/Users/macbookpro/Documents/GitHub/Trello_Selenium_Test_Koshkin_App/src/test/screenshots/screen-1580603944611.png
+2020-02-02 02:39:52,544 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:56] 
+
+Created screenshot:/Users/macbookpro/Documents/GitHub/Trello_Selenium_Test_Koshkin_App/src/test/screenshots/screen-1580603992542.png
+2020-02-02 02:40:05,730 INFO [Test worker] c.t.t.t.TestBase [ChangeUserAvatarTest.java:25] avatar after
+2020-02-02 02:40:06,129 INFO [Test worker] c.t.t.f.ApplicationManager [ApplicationManager.java:56] 
+
+Created screenshot:/Users/macbookpro/Documents/GitHub/Trello_Selenium_Test_Koshkin_App/src/test/screenshots/screen-1580604006129.png
+2020-02-02 02:40:06,132 INFO [Test worker] c.t.t.u.Listener [Listener.java:17] testChangeUserAvatar Passed Successful
+2020-02-02 02:40:06,133 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:25] Stop test testChangeUserAvatar

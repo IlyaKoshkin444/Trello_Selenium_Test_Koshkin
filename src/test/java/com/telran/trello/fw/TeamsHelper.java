@@ -78,7 +78,7 @@ public class TeamsHelper extends HelperBase{
     }
 
     public void clickEditTeamProfile() throws InterruptedException {
-        click(By.xpath("//a[@class='button-link tabbed-pane-header-details-edit js-edit-profile']"));
+        click(By.xpath("//span[@class='icon-sm icon-edit']"));
         pause(5000);
     }
     public void returnToHomePage1() throws InterruptedException {
@@ -86,5 +86,12 @@ public class TeamsHelper extends HelperBase{
         pause(5000);
         click(By.cssSelector("[data-test-id='home-link']"));
         pause(5000);
+    }
+
+    public void clickChooceTeamTypeDropDown() throws InterruptedException {
+        click(By.cssSelector("[data-test-id='header-create-team-type-input']"));
+        pause(5000);
+        click(By.xpath("//*[contains(text(), 'Education')]"));
+
     }
 }

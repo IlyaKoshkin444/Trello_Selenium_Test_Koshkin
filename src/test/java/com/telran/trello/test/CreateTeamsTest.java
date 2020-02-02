@@ -20,13 +20,14 @@ public class CreateTeamsTest extends TestBase{
 
        app.getTeam().clickPlusTeamButton();
        app.getTeam().inputCreateTeamTitle();
+      // app.getTeam().clickChooceTeamTypeDropDown();
        app.getTeam().inputCreateTeamDescription();
        app.getTeam().clickCreateTeamSubmitButton();
        app.getTeam().inviteTeamMembers();
        app.getBoard().returnToHomePage();
 
        int after = app.getTeam().getTeamsCount();
-       Assert.assertEquals(after, before +1 );
+       Assert.assertEquals(after, before + 1 );
        System.out.println("Count Teams after create is: " + after );
    }
 

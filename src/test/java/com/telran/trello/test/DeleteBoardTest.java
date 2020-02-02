@@ -18,9 +18,9 @@ public class DeleteBoardTest extends TestBase {
         int before = app.getBoard().getBoardsCount();
 
         app.getBoard().clickIconBoard();
-        if (app.getBoard().isHeaderMenuPresent()) {
-            app.getBoard().clickBoardHeaderMenu();
-        }
+       // if (app.getBoard().isHeaderMenuPresent()) {
+        //    app.getBoard().clickBoardHeaderMenu();
+      //  }
         if (app.getBoard().isBoardMenuBackButtonPresent()) {
             app.getBoard().clickBoardMenuBackButton();
         }

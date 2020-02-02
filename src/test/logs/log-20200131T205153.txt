@@ -1,0 +1,3 @@
+2020-01-31 20:51:58,459 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:20] Start test testDeleteTeams with parameters[]
+2020-01-31 20:53:10,504 INFO [Test worker] c.t.t.u.Listener [Listener.java:17] testDeleteTeams Passed Successful
+2020-01-31 20:53:10,505 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:25] Stop test testDeleteTeams
