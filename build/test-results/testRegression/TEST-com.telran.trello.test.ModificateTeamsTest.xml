@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.trello.test.ModificateTeamsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-02T01:38:41" hostname="MBP-MacBook" time="186.689">
+  <properties/>
+  <testcase name="testModificateTeams" classname="com.telran.trello.test.ModificateTeamsTest" time="31.019"/>
+  <testcase name="testModificateTeamsWithCSV[0](TeamData{name='a'}TeamData{description='d'})" classname="com.telran.trello.test.ModificateTeamsTest" time="30.907"/>
+  <testcase name="testModificateTeamsWithCSV[1](TeamData{name='hoty4sqqpra6lcnbr5me'}TeamData{description='hoty4sqqpra6lcnbr5me'})" classname="com.telran.trello.test.ModificateTeamsTest" time="31.012"/>
+  <testcase name="testModificateTeamsWithCSV[2](TeamData{name='etNKOwBgczlYRkylPPfWSjMvP4CzYCAgnwMBmCpLZRNvjrdHuusynoayIOQkwhR9v0HjXUPr8V0SjuWw'}TeamData{description='5Tq7Oan0c90UJxdrw05RvIzA4TSWxuMLzl8bQJiZvNIEB94qj0rUOrEQogQKCaPdBNyLm76wDiGSjEiv4LTo306CoKzMbVecPMUG'})" classname="com.telran.trello.test.ModificateTeamsTest" time="31.881"/>
+  <testcase name="testModificateTeamsWithDP[0](name DP, description DP)" classname="com.telran.trello.test.ModificateTeamsTest" time="30.95"/>
+  <testcase name="testModificateTeamsWithDP[1](DPn, )" classname="com.telran.trello.test.ModificateTeamsTest" time="30.846"/>
+  <system-out><![CDATA[03:38:41.421 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testModificateTeams with parameters[]
+03:39:12.452 [Test worker] INFO  com.telran.trello.util.Listener - testModificateTeams Passed Successful
+03:39:12.454 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testModificateTeams
+03:39:12.456 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testModificateTeamsWithCSV with parameters[TeamData{name='a'}TeamData{description='d'}]
+03:39:43.376 [Test worker] INFO  com.telran.trello.util.Listener - testModificateTeamsWithCSV Passed Successful
+03:39:43.378 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testModificateTeamsWithCSV
+03:39:43.379 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testModificateTeamsWithCSV with parameters[TeamData{name='hoty4sqqpra6lcnbr5me'}TeamData{description='hoty4sqqpra6lcnbr5me'}]
+03:40:14.402 [Test worker] INFO  com.telran.trello.util.Listener - testModificateTeamsWithCSV Passed Successful
+03:40:14.403 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testModificateTeamsWithCSV
+03:40:14.405 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testModificateTeamsWithCSV with parameters[TeamData{name='etNKOwBgczlYRkylPPfWSjMvP4CzYCAgnwMBmCpLZRNvjrdHuusynoayIOQkwhR9v0HjXUPr8V0SjuWw'}TeamData{description='5Tq7Oan0c90UJxdrw05RvIzA4TSWxuMLzl8bQJiZvNIEB94qj0rUOrEQogQKCaPdBNyLm76wDiGSjEiv4LTo306CoKzMbVecPMUG'}]
+03:40:46.300 [Test worker] INFO  com.telran.trello.util.Listener - testModificateTeamsWithCSV Passed Successful
+03:40:46.301 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testModificateTeamsWithCSV
+03:40:46.303 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testModificateTeamsWithDP with parameters[name DP, description DP]
+03:41:17.264 [Test worker] INFO  com.telran.trello.util.Listener - testModificateTeamsWithDP Passed Successful
+03:41:17.265 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testModificateTeamsWithDP
+03:41:17.267 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testModificateTeamsWithDP with parameters[DPn, ]
+03:41:48.122 [Test worker] INFO  com.telran.trello.util.Listener - testModificateTeamsWithDP Passed Successful
+03:41:48.124 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testModificateTeamsWithDP
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.trello.test.CreateBoardTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-02T01:17:37" hostname="MBP-MacBook" time="428.863">
+  <properties/>
+  <testcase name="testCreateBoard" classname="com.telran.trello.test.CreateBoardTest" time="61.277"/>
+  <testcase name="testCreateBoardWithCSV[0](BoardData{boardName='a'})" classname="com.telran.trello.test.CreateBoardTest" time="60.97"/>
+  <testcase name="testCreateBoardWithCSV[1](BoardData{boardName='hoty4sqqpra6lcnbr5me'})" classname="com.telran.trello.test.CreateBoardTest" time="61.199"/>
+  <testcase name="testCreateBoardWithCSV[2](BoardData{boardName='etNKOwBgczlYRkylPPfWSjMvP4CzYCAgnwMBmCpLZRNvjrdHuusynoayIOQkwhR9v0HjXUPr8V0SjuWw'})" classname="com.telran.trello.test.CreateBoardTest" time="61.748"/>
+  <testcase name="testCreateBoardWithDP[0](nameBoard1)" classname="com.telran.trello.test.CreateBoardTest" time="61.191"/>
+  <testcase name="testCreateBoardWithDP[1](Bn)" classname="com.telran.trello.test.CreateBoardTest" time="61.041"/>
+  <testcase name="testCreateBoardWithDP[2](BoardNameWithDataProvider2)" classname="com.telran.trello.test.CreateBoardTest" time="61.334"/>
+  <system-out><![CDATA[03:17:37.196 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testCreateBoard with parameters[]
+Count Boards after create is: 4
+03:18:38.482 [Test worker] INFO  com.telran.trello.util.Listener - testCreateBoard Passed Successful
+03:18:38.484 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testCreateBoard
+03:18:38.494 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testCreateBoardWithCSV with parameters[BoardData{boardName='a'}]
+Count Boards after create is: 5
+03:19:39.473 [Test worker] INFO  com.telran.trello.util.Listener - testCreateBoardWithCSV Passed Successful
+03:19:39.474 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testCreateBoardWithCSV
+03:19:39.476 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testCreateBoardWithCSV with parameters[BoardData{boardName='hoty4sqqpra6lcnbr5me'}]
+Count Boards after create is: 6
+03:20:40.692 [Test worker] INFO  com.telran.trello.util.Listener - testCreateBoardWithCSV Passed Successful
+03:20:40.695 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testCreateBoardWithCSV
+03:20:40.696 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testCreateBoardWithCSV with parameters[BoardData{boardName='etNKOwBgczlYRkylPPfWSjMvP4CzYCAgnwMBmCpLZRNvjrdHuusynoayIOQkwhR9v0HjXUPr8V0SjuWw'}]
+Count Boards after create is: 7
+03:21:42.455 [Test worker] INFO  com.telran.trello.util.Listener - testCreateBoardWithCSV Passed Successful
+03:21:42.457 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testCreateBoardWithCSV
+03:21:42.459 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testCreateBoardWithDP with parameters[nameBoard1]
+Count Boards after create is: 8
+03:22:43.659 [Test worker] INFO  com.telran.trello.util.Listener - testCreateBoardWithDP Passed Successful
+03:22:43.661 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testCreateBoardWithDP
+03:22:43.662 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testCreateBoardWithDP with parameters[Bn]
+Count Boards after create is: 9
+03:23:44.718 [Test worker] INFO  com.telran.trello.util.Listener - testCreateBoardWithDP Passed Successful
+03:23:44.720 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testCreateBoardWithDP
+03:23:44.721 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testCreateBoardWithDP with parameters[BoardNameWithDataProvider2]
+Count Boards after create is: 10
+03:24:46.068 [Test worker] INFO  com.telran.trello.util.Listener - testCreateBoardWithDP Passed Successful
+03:24:46.070 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testCreateBoardWithDP
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

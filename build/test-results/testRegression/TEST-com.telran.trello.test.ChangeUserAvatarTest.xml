@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.trello.test.ChangeUserAvatarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-02T01:42:08" hostname="MBP-MacBook" time="74.71">
+  <properties/>
+  <testcase name="testChangeUserAvatar" classname="com.telran.trello.test.ChangeUserAvatarTest" time="74.71"/>
+  <system-out><![CDATA[03:42:08.545 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testChangeUserAvatar with parameters[]
+03:42:08.555 [Test worker] INFO  com.telran.trello.test.TestBase - avatar before
+03:42:09.273 [Test worker] INFO  c.t.trello.fw.ApplicationManager - 
+
+Created screenshot:/Users/macbookpro/Documents/GitHub/Trello_Selenium_Test_Koshkin_App/src/test/screenshots/screen-1580607729266.png
+03:42:21.757 [Test worker] INFO  c.t.trello.fw.ApplicationManager - 
+
+Created screenshot:/Users/macbookpro/Documents/GitHub/Trello_Selenium_Test_Koshkin_App/src/test/screenshots/screen-1580607741755.png
+03:43:09.694 [Test worker] INFO  c.t.trello.fw.ApplicationManager - 
+
+Created screenshot:/Users/macbookpro/Documents/GitHub/Trello_Selenium_Test_Koshkin_App/src/test/screenshots/screen-1580607789691.png
+03:43:22.873 [Test worker] INFO  com.telran.trello.test.TestBase - avatar after
+03:43:23.264 [Test worker] INFO  c.t.trello.fw.ApplicationManager - 
+
+Created screenshot:/Users/macbookpro/Documents/GitHub/Trello_Selenium_Test_Koshkin_App/src/test/screenshots/screen-1580607803263.png
+03:43:23.264 [Test worker] INFO  com.telran.trello.util.Listener - testChangeUserAvatar Passed Successful
+03:43:23.265 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testChangeUserAvatar
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

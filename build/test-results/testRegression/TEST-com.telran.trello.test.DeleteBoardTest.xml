@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.trello.test.DeleteBoardTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-02T01:36:53" hostname="MBP-MacBook" time="61.025">
+  <properties/>
+  <testcase name="testDeleteBoard" classname="com.telran.trello.test.DeleteBoardTest" time="61.025"/>
+  <system-out><![CDATA[03:36:53.969 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testDeleteBoard with parameters[]
+Count Boards after delete is: 3
+03:37:55.007 [Test worker] INFO  com.telran.trello.util.Listener - testDeleteBoard Passed Successful
+03:37:55.009 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testDeleteBoard
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

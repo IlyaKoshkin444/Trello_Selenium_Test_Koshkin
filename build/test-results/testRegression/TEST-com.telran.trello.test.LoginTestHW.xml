@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.trello.test.LoginTestHW" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-02T01:16:06" hostname="MBP-MacBook" time="90.692">
+  <properties/>
+  <testcase name="testLoginHW" classname="com.telran.trello.test.LoginTestHW" time="38.597"/>
+  <testcase name="testLoginHW1" classname="com.telran.trello.test.LoginTestHW" time="35.386"/>
+  <system-out><![CDATA[03:15:51.479 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testLoginHW with parameters[]
+03:16:45.097 [Test worker] INFO  com.telran.trello.util.Listener - testLoginHW Passed Successful
+03:16:45.098 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testLoginHW
+03:16:45.101 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testLoginHW1 with parameters[]
+03:17:37.191 [Test worker] INFO  com.telran.trello.util.Listener - testLoginHW1 Passed Successful
+03:17:37.194 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testLoginHW1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

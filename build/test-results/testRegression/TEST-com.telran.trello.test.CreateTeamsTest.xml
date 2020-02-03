@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.trello.test.CreateTeamsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-02T01:37:55" hostname="MBP-MacBook" time="46.389">
+  <properties/>
+  <testcase name="testCreateTeams" classname="com.telran.trello.test.CreateTeamsTest" time="46.389"/>
+  <system-out><![CDATA[03:37:55.011 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testCreateTeams with parameters[]
+Count Teams after create is: 4
+03:38:41.409 [Test worker] INFO  com.telran.trello.util.Listener - testCreateTeams Passed Successful
+03:38:41.411 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testCreateTeams
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

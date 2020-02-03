@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.trello.test.DeleteTeamsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-02T01:41:48" hostname="MBP-MacBook" time="20.399">
+  <properties/>
+  <testcase name="testDeleteTeams" classname="com.telran.trello.test.DeleteTeamsTest" time="20.399"/>
+  <system-out><![CDATA[03:41:48.128 [Test worker] INFO  com.telran.trello.test.TestBase - Start test testDeleteTeams with parameters[]
+Count Teams after delete is: 3
+03:42:08.542 [Test worker] INFO  com.telran.trello.util.Listener - testDeleteTeams Passed Successful
+03:42:08.544 [Test worker] INFO  com.telran.trello.test.TestBase - Stop test testDeleteTeams
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
